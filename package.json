@@ -1,5 +1,5 @@
 {
-  "name": "@anthropic/ngx-generic-service",
+  "name": "@acy/generic-service",
   "version": "1.0.0",
   "description": "Angular 21 Generic CRUD Service Package",
   "license": "MIT",

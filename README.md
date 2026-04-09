@@ -1,4 +1,4 @@
-# @anthropic/ngx-generic-service
+# @acy/generic-service
 
 Angular 21 için Generic CRUD Service paketi. Tüm entity servisleriniz için temel sınıf sağlar.
 
@@ -15,7 +15,7 @@ Angular 21 için Generic CRUD Service paketi. Tüm entity servisleriniz için te
 ## Kurulum
 
 ```bash
-npm install @anthropic/ngx-generic-service
+npm install @acy/generic-service
 ```
 
 ## Konfigürasyon
@@ -24,7 +24,7 @@ npm install @anthropic/ngx-generic-service
 
 ```typescript
 import { ApplicationConfig, provideHttpClient } from '@angular/core';
-import { provideGenericServiceConfig } from '@anthropic/ngx-generic-service';
+import { provideGenericServiceConfig } from '@acy/generic-service';
 
 export const appConfig: ApplicationConfig = {
   providers: [
@@ -43,7 +43,7 @@ export const appConfig: ApplicationConfig = {
 ### 1. Entity Model Tanımla
 
 ```typescript
-import { BaseEntity } from '@anthropic/ngx-generic-service';
+import { BaseEntity } from '@acy/generic-service';
 
 export interface User extends BaseEntity {
   id: number;
@@ -57,7 +57,7 @@ export interface User extends BaseEntity {
 
 ```typescript
 import { Injectable } from '@angular/core';
-import { GenericService } from '@anthropic/ngx-generic-service';
+import { GenericService } from '@acy/generic-service';
 import { User } from './user.model';
 
 @Injectable({ providedIn: 'root' })
