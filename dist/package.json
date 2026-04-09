@@ -1,0 +1,27 @@
+{
+  "name": "@acy/generic-service",
+  "version": "1.0.0",
+  "description": "Angular 21 Generic CRUD Service Package",
+  "license": "MIT",
+  "peerDependencies": {
+    "@angular/common": "^21.0.0",
+    "@angular/core": "^21.0.0",
+    "rxjs": "^7.8.0"
+  },
+  "sideEffects": false,
+  "module": "fesm2022/acy-generic-service.mjs",
+  "typings": "types/acy-generic-service.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./types/acy-generic-service.d.ts",
+      "default": "./fesm2022/acy-generic-service.mjs"
+    }
+  },
+  "type": "module",
+  "dependencies": {
+    "tslib": "^2.3.0"
+  }
+}
