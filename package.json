@@ -1,0 +1,27 @@
+{
+  "name": "@anthropic/ngx-generic-service",
+  "version": "1.0.0",
+  "description": "Angular 21 Generic CRUD Service Package",
+  "license": "MIT",
+  "peerDependencies": {
+    "@angular/common": "^21.0.0",
+    "@angular/core": "^21.0.0",
+    "rxjs": "^7.8.0"
+  },
+  "devDependencies": {
+    "@angular/common": "^21.0.0",
+    "@angular/compiler": "^21.0.0",
+    "@angular/compiler-cli": "^21.0.0",
+    "@angular/core": "^21.0.0",
+    "@angular/platform-browser": "^21.0.0",
+    "ng-packagr": "^21.0.0",
+    "rxjs": "^7.8.0",
+    "typescript": "~5.8.0",
+    "zone.js": "~0.15.0"
+  },
+  "scripts": {
+    "build": "ng-packagr -p ng-package.json",
+    "build:watch": "ng-packagr -p ng-package.json --watch"
+  },
+  "sideEffects": false
+}
